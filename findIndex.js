@@ -9,11 +9,5 @@
 // findBob(["Jimmy", "Layla", "James"]) ➞ -1
 
 function findBob(names) {
-    let includesBob = names.includes("Bob");
-    
-    if (includesBob){
-        return names.indexOf("Bob");
-    } else {
-        return -1;
-    }
+	return names.indexOf('Bob');
 }
