@@ -11,3 +11,5 @@
 function findBob(names) {
 	return names.indexOf('Bob');
 }
+
+// if it is false it auto returns -1;
