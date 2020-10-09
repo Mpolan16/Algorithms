@@ -40,9 +40,16 @@
 // // expected output: false
 
 // first answer
+// function removeVowels(str) {
+// 	let vowels = ['a','e','i','o','u','A','E','I','O','U',];
+// 	let char = str.split('');
+	
+// 	return char.filter(letter => !vowels.includes(letter)).join('');
+// }
+// second answer
 function removeVowels(str) {
-	let vowels = ['a','e','i','o','u','A','E','I','O','U',];
+	let vowels = ['a','e','i','o','u','A','E','I','O','U'];
 	let char = str.split('');
 	
-	return char.filter(letter => !vowels.includes(letter)).join('');
+	console.log(char.filter(letter => !vowels.includes(letter)).join(''));
 }
