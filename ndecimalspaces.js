@@ -12,3 +12,7 @@
 // n will not be above 15, to keep this challenge simple.
 // Round up the last digit if the next digit in PI is greater or equal to 5 (see second example above).
 // The return value must be a number, not a string.
+
+function myPi(n) {
+	return Number(Math.PI.toFixed(n));
+}
