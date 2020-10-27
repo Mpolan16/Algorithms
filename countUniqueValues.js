@@ -13,3 +13,5 @@ function countUniqueValues(arr){
     }
     return i + 1;
 }
+
+// countUniqueValues([1,1,1,2,3,4,6,6,6,6,7])
