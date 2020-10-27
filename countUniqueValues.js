@@ -2,3 +2,14 @@
 
 //basically tells you how many of each kind of number there are so [1,2,2,2] has 2 unique numbers and it will return 2.
 
+function countUniqueValues(arr){
+    if (arr.length === 0) return 0;
+    var i = 0;
+    for(var j=1; j < arr.length; j++){
+        if(arr[i] !== arr[j]){
+            i++;
+            arr[i] = arr[j]
+        }
+    }
+    return i + 1;
+}
