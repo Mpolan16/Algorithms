@@ -2,10 +2,12 @@ function countDown(num){
     if(num <= 0) {
         console.log("All done!");
         return;
+        //return is what stops it
     }
     console.log(num);
     num--;
     countDown(num);
+    //calls diff num
 }
 
 //recursive function;
