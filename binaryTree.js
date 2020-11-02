@@ -30,3 +30,4 @@
 // Notes
 
 // The tree will contain integers only and will be presented by an array in the specified format.
+const valueInTree = (tree, val) => tree.flat(Infinity).includes(val);
