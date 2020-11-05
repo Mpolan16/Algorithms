@@ -18,3 +18,12 @@
 // Notes
 
 // All street extensions will be shortened to two-letter formats.
+
+//one solution
+function decomposeAddress(str) {
+	const match = str.match(/^(\d+) (\w+ \w+) (.+), (\w+) (\d+)/);
+	return match.slice(1, 7);
+}
+//another possible solution
+const decomposeAddress = str =>
+  str.match(/(\d+) (.+ \w{2}) (.+), (\w{2}) (\d+)/).slice(1);
