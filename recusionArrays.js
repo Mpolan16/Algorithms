@@ -15,3 +15,6 @@
 // If startNum is greater than endNum, return an array with the higher value. See example #4.
 // You are expected to solve this challenge via a recursive approach.
 // A collection of challenges in recursion can be found in here.
+
+//one possible solution
+const inclusiveArray = (s, e) => s >= e? [s] : [...inclusiveArray(s, e-1), e]
