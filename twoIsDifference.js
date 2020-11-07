@@ -10,3 +10,8 @@
 // Notes
 
 // Assume there are no duplicate integers in the array. The order of the integers in the input array should not matter.
+
+function differenceTwo(n) {
+	n.sort((a, b) => a - b);
+	return n.filter(x => n.includes(x + 2)).map(x => [x, x + 2]);
+}
