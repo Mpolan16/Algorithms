@@ -17,3 +17,21 @@
 // Notes
 // Ignore all other arrays in the matrix if a throw happens to be doubles and go straight to returning 0.
 // John only has two dice and will always give you outcomes for three rounds.
+
+function add(a,b) {
+      return a + b;
+    }
+    
+    function diceGame(arr) {
+    const results = [];
+    const scoresPerRound = arr.map(round => {
+    round.reduce((a,b) => { 
+    if ( a === b ) { 
+    results.push(0);
+    } else { 
+    results.push(round.reduce(add));
+    };
+    });
+    });
+      return results.includes(0) ? 0 : results.reduce(add);
+    }
