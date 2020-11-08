@@ -24,3 +24,7 @@ function countTrue(arr) {
     //return arr.length
         return lookup.length;
     }
+
+    //solution refectored
+
+    const countTrue = r => r.filter(Boolean).length
