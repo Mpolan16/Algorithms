@@ -14,3 +14,6 @@
 function minMax(arr) {
 	return [Math.min(...arr), Math.max(...arr)];
 }
+
+//antoher possible solution
+minMax = a => [Math.min(...a),Math.max(...a)]
