@@ -37,3 +37,11 @@
 // Notes
 
 // Here, each tile is represented as an object with two keys: tile and score.
+
+function maximumScore(tileHand) {
+	let max = 0;
+	tileHand.forEach(function(obj) {
+		max += obj.score;
+	});
+	return max;
+}
