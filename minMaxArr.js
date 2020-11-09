@@ -11,3 +11,6 @@
 
 // All test arrays will have at least one element and are valid.
 
+function minMax(arr) {
+	return [Math.min(...arr), Math.max(...arr)];
+}
