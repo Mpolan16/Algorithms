@@ -12,3 +12,7 @@
 // The order of the given numbers is X, Y.
 // This challenge is easier than it looks.
 // Round your result to two decimal places.
+//first solution
+function lineLength([x1, y1], [x2, y2]) {
+	return Number(Math.sqrt(Math.pow(x2-x1, 2) + Math.pow(y2-y1, 2)).toFixed(2));
+}
