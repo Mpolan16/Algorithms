@@ -16,3 +16,7 @@
 function lineLength([x1, y1], [x2, y2]) {
 	return Number(Math.sqrt(Math.pow(x2-x1, 2) + Math.pow(y2-y1, 2)).toFixed(2));
 }
+//refactored
+function lineLength([x1, y1], [x2, y2]) {
+	return +Math.hypot(x1 - x2, y1 - y2).toFixed(2);
+}
