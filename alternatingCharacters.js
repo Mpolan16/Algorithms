@@ -34,4 +34,22 @@
 // The characters marked red are the ones that can be deleted so that the string doesn't have matching consecutive characters.
 
 
+function alternatingCharacters(q,s) {
 
+    for (var i =0; i < q+1; i++){
+        for (var j = 0; j < s.length; j++){
+            for (var k = 1; k < s.length; k++){
+                var repeat = 0;
+                if (s.charAt(j) === s.charAt(k)){
+                    repeat++;
+                }
+                else if (s.char(0) === s.charAt(-1)){
+                    repeat++;
+                 return repeat;
+                } else if (s.charAt(j) !== s.char(k)){
+                    s.charAt(j+2);
+                    s.charAt(k+2);
+            }
+        }
+    }
+}
