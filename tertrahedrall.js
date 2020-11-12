@@ -24,6 +24,7 @@ function tetra(n) {
 }
 
 // another solution 
+//this one is simply the formula for a tetrahedral...
 function tetra(n) {
     return n*(n+1)*(n+2)/6
     }
