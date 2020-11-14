@@ -20,3 +20,5 @@
 // Notes
 
 // To reiterate, elements of the array will be either integers or arrays with a single integer.
+
+const sortIt = arr => arr.sort((a, b) => a - b);
