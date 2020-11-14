@@ -10,3 +10,5 @@
 // Notes
 
 // N/A
+
+const secondLargest = a => a.sort((a,b)=> b - a)[1];
