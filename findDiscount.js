@@ -17,3 +17,10 @@
 
 //Looks like a simple math problem
 //im planning to take the first arg "price" and then multiply it by "discount"/100 and return price - discount
+
+//first solution
+
+function dis(price, discount) {
+	var totalDis = price - (price*(discount/100));
+	return +totalDis.toFixed(2);
+}
