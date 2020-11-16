@@ -24,3 +24,7 @@ function dis(price, discount) {
 	var totalDis = price - (price*(discount/100));
 	return +totalDis.toFixed(2);
 }
+
+//second in arrow functions
+
+const dis = (p, d) => +(p - (p*(d/100))).toFixed(2);
