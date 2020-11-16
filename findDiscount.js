@@ -28,3 +28,5 @@ function dis(price, discount) {
 //second in arrow functions
 
 const dis = (p, d) => +(p - (p*(d/100))).toFixed(2);
+
+// best resource for me => https://www.jsdiaries.com/how-to-remove-decimal-places-in-javascript/
