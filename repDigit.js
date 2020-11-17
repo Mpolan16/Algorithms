@@ -54,3 +54,6 @@
 // {\displaystyle 7\times {\frac {10^{5}-1}{10-1}}}.
 
 // A variation of repdigits called Brazilian numbers are numbers that can be written as a repdigit in some base, not allowing the repdigit 11. For example, 27 is a Brazilian number because 27 is the repdigit 33 in base 8, while 9 is not a Brazilian number because its only repdigit representation is 118, not allowed in the definition of Brazilian numbers. The representations of the form 11 are considered trivial and are disallowed in the definition of Brazilian numbers, because all natural numbers n greater than two have the representation 11n − 1.[2] The first twenty Brazilian numbers are
+
+//FIRST ANSWER
+const isRepdigit = num => new Set(''+num).size === 1;
