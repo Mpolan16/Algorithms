@@ -57,3 +57,5 @@
 
 //FIRST ANSWER
 const isRepdigit = num => new Set(''+num).size === 1;
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/size
