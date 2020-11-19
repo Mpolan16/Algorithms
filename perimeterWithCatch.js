@@ -22,3 +22,5 @@
 // Notes
 
 // No rounding is needed.
+
+const perimeter=(l,num)=>(4*(l=='s')+6.28*(l=='c'))*num
