@@ -10,3 +10,5 @@
 // Notes
 
 // Return an empty array if the object is empty.
+
+const toArray = obj => Object.entries(obj);
