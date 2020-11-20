@@ -10,3 +10,5 @@
 // Notes
 
 // The value argument will be a number.
+
+const addName = (obj, name, value) => (obj[name] = value, obj);
