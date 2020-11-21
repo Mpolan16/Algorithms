@@ -19,3 +19,5 @@
 // dime: 10 cents / $0.10
 // nickel: 5 cents / $0.05
 // penny: 1 cent / $0.01
+
+const changeEnough = ([q, d, n, p], amountDue) => (q * 0.25 + d * 0.1 + n * 0.05 + p * 0.01) >= amountDue;
