@@ -18,3 +18,5 @@
 // For an added challenge, try to solve this without using strings.
 // Optionally, you can solve this via a recursive approach.
 // A recursive version of this challenge can be found here.
+
+const count = n => String(Math.abs(n)).length;
