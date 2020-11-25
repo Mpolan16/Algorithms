@@ -15,3 +15,7 @@
 // Notes
 
 // Check the Resources for info on triangular number sequence.
+
+function triangle(n) {
+	return n*(n+1)/2;
+}
