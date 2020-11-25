@@ -21,3 +21,7 @@ function arrayOfMultiples (num, length) {
     }
     return result
 }
+
+//second solution
+
+const arrayOfMultiples = (num, length) => [...Array(length)].map((_, i) => num * (i + 1))
