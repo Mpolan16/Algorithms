@@ -19,3 +19,5 @@
 function triangle(n) {
 	return n*(n+1)/2;
 }
+
+const triangle =n=> n*(n+1)/2;
