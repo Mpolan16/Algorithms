@@ -23,3 +23,13 @@
 // Notes
 
 // [5, 5, 5] (triple identical digits) is NOT considered a boomerang because the middle digit is identical to the first and last.
+
+const countBoomerangs = arr => {
+	let collection = 0;
+	for (let i = 0; i < arr.length; i++) {
+		if ((arr[i] === arr[i+2]) && (arr[i] != arr[i+1])) {
+			collection++;
+		}
+	}
+	return collection;
+}
