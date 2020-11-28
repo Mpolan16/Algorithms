@@ -21,3 +21,6 @@
 
 // console.log(array.some(even));
 // // expected output: true
+
+
+const doesBrickFit = (a,b,c, w,h) => [a*b, a*c, b*c].some(el => el <= w*h);
