@@ -13,3 +13,8 @@
 // Nemo will always look like Nemo, and not NeMo or other capital variations.
 // Nemo's, or anything that says Nemo with something behind it, doesn't count as Finding Nemo.
 // If there are multiple Nemo's in the sentence, only return for the first one.
+
+const findNemo = s => {
+	const indexNemo = s.split(" ").indexOf("Nemo")+1;
+	return indexNemo < 1 ? "I can't find Nemo :(" : `I found Nemo at ${indexNemo}!`;
+}
