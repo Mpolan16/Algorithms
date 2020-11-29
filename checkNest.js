@@ -16,3 +16,6 @@
 // Notes
 
 // Note the strict inequality (see example #3).
+
+const canNest = (a1, a2) =>
+ Math.min(...a1) > Math.min(...a2) && Math.max(...a1) < Math.max(...a2) ? true: false;
