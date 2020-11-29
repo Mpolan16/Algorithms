@@ -10,3 +10,5 @@
 // Notes
 
 // Expect any positive number between 1 and 1000.
+
+const addUp=(n)=> (n*(n+1))/2;
