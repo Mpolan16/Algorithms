@@ -13,3 +13,7 @@
 // Use the spread syntax to solve this challenge.
 
 const tuckIn = (a1, a2) => [a1[0], ...a2, a1[1]];
+
+//another solution
+
+const tuckIn = ([a, c], b) => [a, ...b, c];
