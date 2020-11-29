@@ -12,3 +12,9 @@
 // Expect any positive number between 1 and 1000.
 
 const addUp=(n)=> (n*(n+1))/2;
+
+//Resources
+https://en.wikipedia.org/wiki/1_%2B_2_%2B_3_%2B_4_%2B_⋯
+
+
+//basically this resource shows the partial sums equation
