@@ -13,3 +13,7 @@
 // Notes
 
 // This exercise is designed as an introduction to higher order functions (functions which use other functions to do their work).
+
+function whichIsLarger(f, g) {
+	return f() > g() ? "f" : f() < g() ? "g" : "neither";
+}
