@@ -11,3 +11,5 @@
 
 // The first array always has two elements.
 // Use the spread syntax to solve this challenge.
+
+const tuckIn = (a1, a2) => [a1[0], ...a2, a1[1]];
