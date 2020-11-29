@@ -17,15 +17,29 @@
 // Check out the Resources tab for some helpful tutorials on JavaScript classes!
 // If you're really stuck, check out the Solutions tab for answers.
 
+// class Person {
+// 	constructor(name, age) {
+// 		this.name = name;
+// 		this.age = age;
+// 	}
+
+// 	compareAge(other) {
+// 		// Write code here!
+// 			return other.age < this.age ? other.name + " is younger than me.":
+// 			other.age > this.age ? other.name + " is older than me.": other.name + " is the same age as me."
+// 	}
+// }
+
+//second possible soution
 class Person {
 	constructor(name, age) {
 		this.name = name;
 		this.age = age;
 	}
-
+		
 	compareAge(other) {
-		// Write code here!
-			return other.age < this.age ? other.name + " is younger than me.":
-			other.age > this.age ? other.name + " is older than me.": other.name + " is the same age as me."
+		let compare = (other.age>this.age? "older":"younger") +" than"
+		if(other.age==this.age) compare ="the same age as" 
+		return `${other.name} is ${compare} me.`
 	}
 }
