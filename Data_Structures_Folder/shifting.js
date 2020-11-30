@@ -10,6 +10,9 @@ shift(){
 
     newHead = currentHead.next;
     this.length--;
+    if(this.length ===0){
+        this.tail = null;
     return currentHead;
+    }
 
 }
