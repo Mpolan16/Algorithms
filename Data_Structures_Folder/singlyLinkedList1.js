@@ -37,6 +37,7 @@ class SinglyLinkedList{
         //otherwise set the next property on the tail to be the new node and set the tail property on the list to be the newly created node
         else {
             this.tail.next = newNode;
+            //need to set the tail
             this.tail = newNode;
         }
         //increment to length
