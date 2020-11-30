@@ -131,7 +131,7 @@ class SinglyLinkedList{
         console.log(arr);
     }
 }
-
+//instantiate object
 var list = new SinglyLinkedList()
 
 list.push(100)
