@@ -12,3 +12,4 @@
 // Notes
 
 // N/A
+const difference = nums => Math.max(...nums)- Math.min(...nums);
