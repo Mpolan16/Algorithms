@@ -13,3 +13,5 @@
 // Notes
 
 // Your function should return a function, not a string.
+
+const redundant = str => () => str;
