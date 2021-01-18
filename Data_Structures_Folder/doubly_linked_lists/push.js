@@ -17,3 +17,5 @@ class DoublyLinkedList {
         this.length = 0;
     }
 }
+
+//add push to class DLL
